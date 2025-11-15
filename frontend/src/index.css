@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Full height layout */
+html, body, #root {
+  height: 100%;
+}
+
+/* Safe @apply usage — no dark: and no invalid nesting */
+.app-shell {
+  @apply flex h-screen bg-gray-50 text-gray-800;
+}
+
+/* Dark mode must be a separate selector */
+.dark .app-shell {
+  @apply bg-gray-900 text-gray-100;
+}

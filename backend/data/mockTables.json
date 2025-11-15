@@ -1,0 +1,33 @@
+{
+  "default": {
+    "title": "Sample Data Overview",
+    "description": "This is a mock answer with structured data returned as a table and summary text.",
+    "columns": ["Item", "Category", "Score", "Status"],
+    "rows": [
+      ["Alpha", "A", "92", "Active"],
+      ["Beta", "B", "76", "Review"],
+      ["Gamma", "A", "88", "Active"],
+      ["Delta", "C", "64", "Inactive"]
+    ]
+  },
+  "pricing": {
+    "title": "Pricing Comparison",
+    "description": "Illustrative pricing table for demonstration.",
+    "columns": ["Plan", "Monthly", "Annual", "Features"],
+    "rows": [
+      ["Basic", "₹199", "₹1990", "Core features"],
+      ["Pro", "₹499", "₹4990", "Advanced + Priority support"],
+      ["Enterprise", "₹1299", "₹12990", "Custom SLAs + SSO"]
+    ]
+  },
+  "users": {
+    "title": "User Demographics",
+    "description": "Mock user distribution across segments.",
+    "columns": ["Segment", "Users", "Growth", "Churn"],
+    "rows": [
+      ["Free", "12,430", "3.2%", "1.1%"],
+      ["Trial", "2,014", "4.8%", "2.2%"],
+      ["Paid", "1,203", "5.6%", "0.9%"]
+    ]
+  }
+}
